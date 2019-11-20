@@ -35,8 +35,10 @@
  *
  * ------------------------------------------------------------------- 
  */
+
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
+@import url("font-awesome/");
 @import url("micons/micons.css");
 
 
@@ -1893,7 +1895,7 @@ header .logo a {
  * ------------------------------------------------------------------
  */
 .popup-modal {
-	max-width: 550px;
+	max-width: 630px;
 	background: #FFFFFF;
 	position: relative;
 	margin: 0 auto;
@@ -1959,6 +1961,12 @@ header .logo a {
 	background: #cc005f;
 	border: none;
 }
+
+.popup-modal .youtube {
+	height: 340px; 
+	width: 100%;
+}
+
 @media only screen and (max-width:600px) {
 	.popup-modal {
 		width: auto;
@@ -2594,6 +2602,12 @@ footer .copyright span:last-child::after {
 }
 #go-top a:hover {
 	background: #000000;
+}
+
+
+
+.youtube {
+
 }
 
 /*# sourceMappingURL=main.css.map */
